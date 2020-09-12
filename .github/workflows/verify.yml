@@ -28,7 +28,7 @@ jobs:
       run: sudo apt install nim
 
     # required only if you want to verify Rust code
-    - mame: Install dependencies (Rust)
+    - name: Install dependencies (Rust)
       run: sudo apt install rustc
 
     - name: Run tests
